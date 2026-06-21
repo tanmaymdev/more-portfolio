@@ -54,6 +54,23 @@ export const playgroundProjects: PlaygroundProject[] = [
     builtBecause: "Because arguing is boring. Spinning a wheel is not.",
   },
   {
+    slug: "sticker-shocker",
+    title: "Sticker Shocker",
+    tagline: "Pick a country. Guess the price. Get humbled.",
+    description:
+      "A GeoGuessr-style price guessing game — pick a country, then estimate what everyday groceries and electronics actually cost there. Part trivia, part economics lesson, entirely humbling. Turns out a dozen eggs in Switzerland will wreck your confidence.",
+    liveUrl: "https://sticker-shocker.surge.sh/",
+    thumbnail: "",
+    category: "game",
+    year: "2026",
+    status: "live",
+    techStack: ["React", "TypeScript", "Surge"],
+    inspiration:
+      "Curiosity about how wildly prices diverge across countries — and a hunch that most people's mental model of 'how much things cost' is hilariously miscalibrated.",
+    builtBecause:
+      "Because purchasing power differences are fascinating and nobody learns about them until they move countries and get sticker shock at the grocery store.",
+  },
+  {
     slug: "chidiya-udd",
     title: "Chidiya Udd",
     tagline: "A nostalgic childhood game, recreated for the web.",
